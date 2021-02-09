@@ -1,0 +1,68 @@
+1	Pop culture celebrated at Fan Expo Canada 2016 in Toronto	_	_	_	pos1=JJ|head=celebrate|stype=other|len=10|head_func=root|heading=heading	5	preparation_r	_	_
+2	Wednesday , September 7 , 2016	_	_	_	pos1=NP|head=Wednesday|stype=frag|len=6|head_func=root|open_para|date	5	circumstance_r	_	_
+3	The far end of part of the convention floor , shortly after opening Friday .	_	_	_	pos1=DT|head=end|stype=frag|len=15|head_func=root|caption=caption|caption	5	background_r	_	_
+4	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	3	elaboration_r	_	_
+5	The 22nd Fan Expo Canada took place at the Metro Toronto Convention Centre this weekend ,	_	_	_	pos1=DT|head=take|stype=decl|len=16|head_func=root|open_para|date	0	ROOT	_	_
+6	attracting thousands to the event , one of the most popular in North America .	_	_	_	pos1=VVG|head=attract|stype=decl|len=15|head_func=vmod|subord=LEFT	5	result_r	_	_
+7	Crossing between the genres of science fiction , horror , anime , fantasy and comics ,	_	_	_	pos1=VVG|head=cross|stype=decl|len=16|head_func=vmod|subord=RIGHT	8	circumstance_r	_	_
+8	the event sprawled throughout all corners of the facility .	_	_	_	pos1=DT|head=sprawl|stype=decl|len=10|head_func=root	5	elaboration_r	_	_
+9	Hundreds of vendors offered products new and old , joined by celebrity guests like Stan Lee , Mark Hamill , and Margaret Atwood .	_	_	_	pos1=NNS|head=offer|stype=decl|len=24|head_func=root	5	ROOT	_	_
+10	Various local fan organizations were there in a charitable capacity ,	_	_	_	pos1=JJ|head=be|stype=decl|len=11|head_func=root	9	joint_m	_	_
+11	and thousands of fans donned costumes , many of which they themselves created .	_	_	_	pos1=CC|head=don|stype=decl|len=14|head_func=conj|subord=LEFT	9	joint_m	_	_
+12	Atwood , a Booker Prize-winner , was there to launch her graphic novel Angel Catbird , with illustrator Johnnie Christmas .	_	_	_	pos1=NP|head=be|stype=decl|len=21|head_func=root|open_para	9	elaboration_r	_	_
+13	Lee was making his final Canadian convention appearance , part of a larger farewell tour .	_	_	_	pos1=NP|head=make|stype=decl|len=16|head_func=root	12	joint_m	_	_
+14	Hamill 's schedule included a panel with Kevin Conroy , the voice of Batman in Batman : The Animated Series , in which the Star Wars lead played the Joker .	_	_	_	pos1=NP|head=include|stype=decl|len=31|head_func=root	12	joint_m	_	_
+15	Ubisoft , Microsoft , and PlayStation VR all had large areas set up for attendees to try their latest games .	_	_	_	pos1=NP|head=have|stype=decl|len=21|head_func=root|open_para	9	joint_m	_	_
+16	In the 20-minute PlayStation VR demonstration of Batman : Arkham VR , players are dropped down a secret elevator in Bruce Wayne 's manor , to the Bat Cave ,	_	_	_	pos1=IN|head=drop|stype=decl|len=30|head_func=root	15	joint_m	_	_
+17	to suit up .	_	_	_	pos1=TO|head=suit|stype=decl|len=4|head_func=xcomp|subord=LEFT	16	preparation_r	_	_
+18	From there , the demonstration took players to investigate the murder of Nightwing .	_	_	_	pos1=IN|head=take|stype=decl|len=14|head_func=root	16	sequence_m	_	_
+19	The Northern Arena Esports Championship ran throughout the weekend ,	_	_	_	pos1=DT|head=run|stype=decl|len=10|head_func=root|open_para	9	joint_m	_	_
+20	facing off teams of video gamers in a packed hall .	_	_	_	pos1=VVG|head=face|stype=decl|len=11|head_func=vmod|subord=LEFT	19	elaboration_r	_	_
+21	Even in early rounds , the event was well attended ,	_	_	_	pos1=RB|head=attend|stype=decl|len=11|head_func=root	19	elaboration_r	_	_
+22	with the stands full of gamers , watching the matches with live colour commentary .	_	_	_	pos1=IN|head=full|stype=decl|len=15|head_func=xcomp|subord=LEFT	21	evidence_r	_	_
+23	The finals saw US team Cloud9 and Immortals , from Brazil , face off in Counter-Strike : Global Offensive .	_	_	_	pos1=DT|head=see|stype=decl|len=20|head_func=root	19	elaboration_r	_	_
+24	Both unbeaten teams going in ,	_	_	_	pos1=DT|head=team|stype=decl|len=6|head_func=vmod|subord=RIGHT	25	background_r	_	_
+25	the Brazillian team won the championship and $ 50,000 .	_	_	_	pos1=DT|head=win|stype=decl|len=10|head_func=root	23	elaboration_r	_	_
+26	Gameplay was delayed during the " third map " ( third round ) of the finals ,	_	_	_	pos1=NN|head=delay|stype=decl|len=17|head_func=root|open_para	27	result_r	_	_
+27	when one Immortals player was caught with their headset off .	_	_	_	pos1=WRB|head=catch|stype=decl|len=11|head_func=rcmod|subord=LEFT	25	elaboration_r	_	_
+28	After nearly half an hour , the team was deducted a point ,	_	_	_	pos1=IN|head=deduct|stype=decl|len=13|head_func=root	27	result_r	_	_
+29	leading to a sudden but temporary rush of success by the US team .	_	_	_	pos1=VVG|head=lead|stype=decl|len=14|head_func=vmod|subord=LEFT	28	result_r	_	_
+30	Playstation VR demo	_	_	_	pos1=NP|head=demo|stype=frag|len=3|head_func=root|caption=caption|caption	9	elaboration_r	_	_
+31	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	30	elaboration_r	_	_
+32	Displays of charity at event	_	_	_	pos1=NNS|head=display|stype=frag|len=5|head_func=root|heading=heading	33	preparation_r	_	_
+33	The Canadian garrison of 501st Legion returned with their setup of photo-ops , with proceeds to the Make-A-Wish Foundation .	_	_	_	pos1=DT|head=return|stype=decl|len=20|head_func=root|open_para	9	joint_m	_	_
+34	Volunteer organization Comic Corps of Canada collects donations of comics ,	_	_	_	pos1=NN|head=collect|stype=decl|len=11|head_func=root|open_para	33	joint_m	_	_
+35	to distribute to children and youth in the hospital .	_	_	_	pos1=TO|head=distribute|stype=decl|len=10|head_func=vmod|subord=LEFT	34	purpose_r	_	_
+36	Along with collecting comics on-site , the group was fundraising through raffles and button sales .	_	_	_	pos1=RB|head=fundrais|stype=decl|len=16|head_func=root	34	elaboration_r	_	_
+37	Other charitable fan-based groups included The Ontario Ghostbusters , Doctor Who Society of Canada , and Klingon Assault Group .	_	_	_	pos1=JJ|head=include|stype=decl|len=20|head_func=root|open_para	33	joint_m	_	_
+38	Brampton Spider-Gwen and Symbiote Spidey pose at the Comic Corps booth .	_	_	_	pos1=NP|head=pose|stype=decl|len=12|head_func=root|caption=caption|caption	33	elaboration_r	_	_
+39	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	38	elaboration_r	_	_
+40	A showdown at the 501st Legion booth .	_	_	_	pos1=DT|head=showdown|stype=frag|len=8|head_func=root|caption=caption|caption	38	joint_m	_	_
+41	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	40	elaboration_r	_	_
+42	Successful Stormtroopers share a high-five .	_	_	_	pos1=JJ|head=share|stype=decl|len=6|head_func=root|caption=caption|caption	38	joint_m	_	_
+43	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	42	elaboration_r	_	_
+44	Cosplay celebration of craftsmanship and characters	_	_	_	pos1=NN|head=celebration|stype=frag|len=6|head_func=root|heading=heading	49	preparation_r	_	_
+45	Epic Mickey by The Katherinator .	_	_	_	pos1=NP|head=Mickey|stype=frag|len=6|head_func=root|caption=caption|caption	49	background_r	_	_
+46	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	45	elaboration_r	_	_
+47	The thousands of cosplay outfits on parade around the various halls offered a tremendous cross-section of genres and eras of pop culture .	_	_	_	pos1=DT|head=offer|stype=decl|len=23|head_func=root|open_para	49	background_r	_	_
+48	The majority of outfits involved at least some elements made from scratch , a fantastic display of craftsmanship .	_	_	_	pos1=DT|head=involve|stype=decl|len=19|head_func=root	47	elaboration_r	_	_
+49	Of the thousands , Wikinews spoke with a cosplayer going by the name " The Katherinator " .	_	_	_	pos1=IN|head=speak|stype=decl|len=18|head_func=root	9	joint_m	_	_
+50	She was outside the building in the gardens ,	_	_	_	pos1=PP|head=be|stype=decl|len=9|head_func=root	49	circumstance_r	_	_
+51	waiting for a photographer she had arranged to shoot her new Epic Mickey costumed character-style outfit .	_	_	_	pos1=VVG|head=wait|stype=decl|len=17|head_func=vmod|subord=LEFT	50	purpose_r	_	_
+52	With shoes as wide as a forearm , and a rigid torso of carved foam , she remained exuberant	_	_	_	pos1=IN|head=remain|stype=decl|len=19|head_func=root	49	elaboration_r	_	_
+53	even when caught in the traffic between halls , many hours into wearing the outfit .	_	_	_	pos1=RB|head=catch|stype=decl|len=16|head_func=advcl|subord=LEFT	52	concession_r	_	_
+54	Disney	_	_	_	pos1=NP|head=Disney|stype=frag|len=1|head_func=root|heading=heading	55	preparation_r	_	_
+55	Belle	_	_	_	pos1=NP|head=Belle|stype=frag|len=1|head_func=root|caption=caption|caption	49	joint_m	_	_
+56	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	55	elaboration_r	_	_
+57	Superheroes	_	_	_	pos1=NNS|head=superhero|stype=frag|len=1|head_func=root|heading=heading	58	preparation_r	_	_
+58	Black Widow and Captain America	_	_	_	pos1=NP|head=Widow|stype=frag|len=5|head_func=root|caption=caption|caption	55	joint_m	_	_
+59	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	58	elaboration_r	_	_
+60	Anime	_	_	_	pos1=NP|head=Anime|stype=frag|len=1|head_func=root|heading=heading	61	preparation_r	_	_
+61	Three of Digimon 's " Digi-destined " , including cosplayer Jessica Anderson .	_	_	_	pos1=NP|head=Three|stype=frag|len=13|head_func=root|caption=caption|caption	55	joint_m	_	_
+62	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	61	elaboration_r	_	_
+63	Video games , movies , and more	_	_	_	pos1=NN|head=game|stype=frag|len=7|head_func=root|heading=heading	64	preparation_r	_	_
+64	Lady Cassandra from Doctor Who .	_	_	_	pos1=NP|head=Cassandra|stype=frag|len=6|head_func=root|caption=caption|caption	55	joint_m	_	_
+65	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	64	elaboration_r	_	_
+66	Peekaboo Cosplay as The Fawn	_	_	_	pos1=NP|head=Cosplay|stype=frag|len=5|head_func=root|caption=caption|caption	64	joint_m	_	_
+67	Image : Nick Moreau .	_	_	_	pos1=NN|head=image|stype=frag|len=5|head_func=root|caption=caption|caption	66	elaboration_r	_	_
+
