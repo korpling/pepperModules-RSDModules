@@ -38,7 +38,7 @@ public class RSDImporterProperties extends PepperModuleProperties  {
 		this.addProperty(new PepperModuleProperty<String>(NAMESPACE, String.class, "Specifies a namespace to assign to all imported annotations.", "rsd", false));
 		this.addProperty(new PepperModuleProperty<String>(EDGETYPE, String.class, "Specifies an edge type for rsd relations.", "rsd", false));
 		this.addProperty(new PepperModuleProperty<String>(EDGEANNONAME, String.class, "Specifies an edge annotation name for rsd relations.", "func", false));
-		this.addProperty(new PepperModuleProperty<Boolean>(EDGEANNONAME, Boolean.class, "Whether to add EDU numbers", false, false));
+		this.addProperty(new PepperModuleProperty<Boolean>(ADDEDUNUM, Boolean.class, "Whether to add EDU numbers", false, false));
 		this.addProperty(new PepperModuleProperty<Boolean>(ADDRELANNO, Boolean.class, "Whether to also add the rhetorical relation as a node annotation to the EDU span.", false, false));
         }
 
