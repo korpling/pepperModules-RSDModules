@@ -294,6 +294,7 @@ public class RSD2SaltMapper extends PepperMapperImpl {
           sRel.setSource(id2edu.get(childID));
           sRel.setTarget(id2edu.get(parentID));
           sRel.setType(this.edgeType);
+          getDocument().getDocumentGraph().addRelation(sRel);
           SAnnotation relAnno = SaltFactory.createSAnnotation();
           if (namespace != null) {
             relAnno.setNamespace(namespace);
@@ -302,7 +303,6 @@ public class RSD2SaltMapper extends PepperMapperImpl {
           relAnno.setName(this.edgeAnnoName);
           relAnno.setValue(id2rel.get(childID));
           sRel.addAnnotation(relAnno);
-          getDocument().getDocumentGraph().addRelation(sRel);
         }
       }
     }
