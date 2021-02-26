@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.corpus-tools</groupId>
 	<artifactId>pepperModules-RSDModules</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>bundle</packaging>
 	<name>org.corpus-tools.pepperModules-RSDModules</name>
 	<!-- Declares this project to be an extension of the project pepper-parentModule. -->
@@ -32,12 +33,39 @@
 			<organization>GU</organization>
 		</developer>
 	</developers>
-    <dependencies>
-        <dependency>
-            <groupId>org.corpus-tools</groupId>
-            <artifactId>pepperModules-CoNLLModules</artifactId>
-            <version>2.1.0</version>
-            <type>jar</type>
-        </dependency>
-    </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>org.corpus-tools</groupId>
+			<artifactId>pepperModules-CoNLLModules</artifactId>
+			<version>2.1.0</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.amashchenko.maven.plugin</groupId>
+				<artifactId>gitflow-maven-plugin</artifactId>
+				<version>1.15.1</version>
+				<configuration>
+					<pushRemote>true</pushRemote>
+					<preReleaseGoals>license:format notice:generate</preReleaseGoals>
+					<postReleaseGoals>-Prelease,doxygen package assembly:single deploy</postReleaseGoals>
+					<postHotfixGoals>-Prelease,doxygen package assembly:single deploy</postHotfixGoals>
+					<verbose>true</verbose>
+					<gitFlowConfig>
+						<productionBranch>main</productionBranch>
+						<developmentBranch>develop</developmentBranch>
+						<featureBranchPrefix>feature/</featureBranchPrefix>
+						<releaseBranchPrefix>release/</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+						<supportBranchPrefix>support/</supportBranchPrefix>
+						<versionTagPrefix>v</versionTagPrefix>
+						<origin>origin</origin>
+					</gitFlowConfig>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
